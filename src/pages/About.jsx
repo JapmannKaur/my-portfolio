@@ -1,14 +1,14 @@
 import {Link} from 'react-router-dom'
+import Navbar from '../components/Navbar'
+import Background from '../components/Background'
 
 const About = () => {
   return (
     <div>
+      <Navbar/>
+      <Background/>
       <h1> About </h1>
-      <button><Link to="/projects">Projects</Link></button>
-      <button><Link to="/blogs">Blogs</Link> </button>
-      <button><Link to="/contact">Contact</Link></button> 
-       
     </div>
   )
 }
-export default About
+export default About 

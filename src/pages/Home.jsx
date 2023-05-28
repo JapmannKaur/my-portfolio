@@ -1,11 +1,13 @@
 import {Link} from 'react-router-dom'
+import Navbar from '../components/Navbar'
+import Background from '../components/Background'
+
 const Home = () => {
   return (
     <div>
-      <h1> Jappi </h1>
-      <button>
-        <Link to="/about">About</Link> 
-      </button>
+      <Navbar/>
+      <Background/>
+      <h1>  </h1>
     </div>
   )
 }

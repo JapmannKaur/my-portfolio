@@ -1,5 +1,4 @@
 import MyRoutes from './MyRoutes'
-
 const App = () => {
   return (
     <>

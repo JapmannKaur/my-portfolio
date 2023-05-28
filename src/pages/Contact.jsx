@@ -1,6 +1,12 @@
+import Navbar from '../components/Navbar'
+import Background from '../components/Background'
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <Navbar/>
+      <Background/>
+      Contact
+    </div>
   )
 }
 export default Contact
