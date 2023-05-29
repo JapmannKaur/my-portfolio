@@ -38,7 +38,7 @@ const TypingAnimation = () => {
 
   return (
     <div>
-      <h2>Hey! I am Japmann Kaur Banga</h2>
+      <h2>Japmann Kaur Banga</h2>
       <p>I am a <span
         className="typing"
         onMouseEnter={handleMouseEnter}

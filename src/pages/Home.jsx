@@ -19,7 +19,7 @@ const Home = () => {
               const {id,href,icon} = social;
               return(
                 <div className='my-social' key={id}>
-                  <a href={href} target="_blank" className='footertext'><i className={icon} style={{ fontSize: '24px', width: '24px', height: '24px', color:'#2dcf14', backgroundColor:'#001b39' }}></i></a>
+                  <a href={href} target="_blank" className='footertext'><i className={icon} style={{ fontSize: '24px', width: '24px', height: '24px', color:'#2dcf18', backgroundColor:'#002854'}}></i></a>
                 </div>
               )
             })}
