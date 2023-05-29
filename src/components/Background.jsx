@@ -5,16 +5,17 @@ const Background = () => {
   return (
     <>
     <div className="wrapper">
+      <span className='tri'></span>
       <span className='square'></span>
       <span className='circle'></span>
       <span className='square'></span>
-      <span className='hexa'></span>
+      <span className='tri'></span>
       <span className='circle'></span>
       <span className='circle'></span>
-      <span className='hexa'></span>    
+      <span className='tri'></span>    
       <span className='circle'></span>
       <span className='square'></span>
-      <span className='hexa'></span>
+      <span className='tri'></span>
     </div>
     {/* <div className="banner">
       <div className="content">
