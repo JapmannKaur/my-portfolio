@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+.main-about{
+    width: 98%;
+    height: 200vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    row-gap: 9vh;
+}
+
+.top{
+    margin-top: 2vh;
+    width: 98%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    margin-left: 1vw;
+    /* margin-top: -6vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-top{
+    width: 20%;
+    height: 90vh;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    background-color: aliceblue;
+}
+
+.mid-top{
+    width: 15%;
+    height: 90vh;
+    /* border: 1px solid lightcoral; */
+}
+
+.right-top{
+    width: 55%;
+    height: 90vh;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 7vh;
+}
+
+.bottom-up{
+    width: 98%;
+    height: 55vh;
+    border: 1px solid salmon;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+.bottom-down{
+    width: 98%;
+    height: 40vh;
+    border: 1px solid rgb(248, 13, 212);
+    margin-left: 1vw;
+    margin-bottom: 4vh;
+}
+
+.my-img{
+    width: 98%;
+    height: 45vh;
+    /* border: 1px solid cadetblue; */
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    background-color: aliceblue;
+}
+
+.my-name{
+    width: 98%;
+    height: 4.5vh;
+    /* border: 1px solid darkgoldenrod; */
+    background-color: aliceblue;
+}
+
+.lines{
+    width: 100%;
+    height: 0.3vh;
+    background-color: #153D6A;
+}
+
+.socials{
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid purple; */
+    background-color: aliceblue;
+}
+
+.i{
+    width: 25%;
+    height: 5vh;
+    /* border: 1px solid palevioletred; */
+}
+
+.navs{
+    width: 98%;
+    height: 43vh;
+    /* border: 1px solid cadetblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3vh;
+    background-color: aliceblue;
+}
+
+.my-img img{
+    width: 13vw;
+    height: 35vh;
+    background-color: transparent;
+    margin-left: 2.8vw;
+    margin-top: 2vh;
+}
+
+.my-name span{
+    color: #00122b;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2.5vw;
+}
+
+.socials img{
+    margin-top: 0.5vh;
+    height: 4vh;
+    width: 2vw;
+    background-color: aliceblue;
+}
+
+
+.socials .i1{
+    height: 5vh;
+    width: 2vw;
+    background-color: aliceblue;
+}
+
+.socials a{
+    background-color: aliceblue;
+}
+
+.navs a{
+    text-decoration: none;
+    color: #153D6A;
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navs a:hover{
+    background-color: #153D6A;
+    color: white;
+    font-weight: 400;
+}
+
+.mid-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.this-text{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(-180deg);
+    text-decoration: overline underline;
+    font-size: 4.5rem;
+    letter-spacing: 3vh;
+    color: #153d6a8c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+
+.my-about{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 60vh;
+    /* border: 1px solid darkmagenta; */
+}
+
+.card{
+    width: 95%;
+    height: 12vh;
+    /* border: 1px solid mediumpurple; */
+}
+
+.about-top{
+    width: 100%;
+    height: 5vh;
+    background-color: #F6F7F8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-top span{
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.about-bottom{
+    width: 100%;
+    height: 55vh;
+    background-color: #212121;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-in{
+    width: 98%;
+    height: 5vh;
+    background-color: #212121;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card span{
+    color: white;
+    margin-left: 1vw;
+    margin-bottom: -2vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.abc{
+    background-color: transparent;
+    color: wheat;
+    padding-left: 20px;
+    font-size: 1.3rem;
+}
