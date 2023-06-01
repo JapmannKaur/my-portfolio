@@ -1,0 +1,117 @@
+.skills {
+    height: 70%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .skills-heading {
+    color: #40be11;
+    height: 12%;
+    text-align: center;
+    padding: 1% 0;
+    font-size: 2.5rem;
+  }
+  
+  .skills-box {
+    /* border: 1px solid white; */
+    flex-wrap: wrap;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    column-gap: 5%;
+    padding: 2% 2%;
+    row-gap: 14%;
+  }
+  
+  .grid-item {
+    height: 50%;
+    width: 14%;
+    background-color: white;
+    border-radius: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .flip-card {
+    perspective: 1000px;
+    height: 100%;
+    width: 100%;
+    position: relative; /* Add this line */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  }
+  
+  .flip-card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153d6a8c;
+    border-radius: 15px;
+  }
+  
+  .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .grid-icon {
+    height: 80%;
+    width: 80%;
+    background-color: transparent;
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    /* padding: 0.25em 0.5em; */
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 0.25em;
+    position: absolute;
+    z-index: 1;
+    transition-property: visibility;
+    transition-delay: 0s;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .grid-item:hover .tooltiptext {
+    visibility: visible;
+    transition-delay: 0.3s;
+  }
+  

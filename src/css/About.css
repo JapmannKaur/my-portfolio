@@ -2,8 +2,8 @@
 
 .main-about{
     width: 98%;
-    height: 200vh;
-    border: 1px solid white;
+    height: 220vh;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     margin-left: 1vw;
@@ -55,8 +55,8 @@
 
 .bottom-up{
     width: 98%;
-    height: 55vh;
-    border: 1px solid salmon;
+    height: 65vh;
+    /* border: 1px solid salmon; */
     margin-left: 1vw;
     margin-top: 3vh;
 }
@@ -64,9 +64,14 @@
 .bottom-down{
     width: 98%;
     height: 40vh;
-    border: 1px solid rgb(248, 13, 212);
+    /* border: 1px solid rgb(248, 13, 212); */
     margin-left: 1vw;
     margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3vh;
 }
 
 .my-img{
@@ -293,12 +298,50 @@
 }
 
 .typing-text{
+    color: #D6AA4C;
+    font-size: 1.15rem;
+    background-color: transparent;
     margin-top: 3vh;
     margin-left: 1vw;
-    color: #D6AA4C;
-    background-color: transparent;
-    font-size: 1.15rem;
 }
 
+
+/* margin-top: 3vh;
+margin-left: 1vw;
+color: #D6AA4C;
+background-color: transparent;
+font-size: 1.15rem; */
+
+
+.brackets {
+    color: #35BBFF;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: transparent;
+}
+
+.string {
+    color: #D6AA4C;
+}
   
-  
+.git-graph{
+    color: white;
+}
+
+.git-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.7vw;
+    font-size: 2rem;
+    margin-top: 3vh;
+    font-weight: 600;
+}
+
+.my, .contri{
+    color: white;
+}
+
+.graph{
+    color: #40BE11;
+}
