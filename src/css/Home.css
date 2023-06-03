@@ -29,6 +29,7 @@
     column-gap: 1.3vw;
     align-items: center;
     margin-left: 120px;
+    /* border: 1px solid cadetblue; */
 }
 
 .right{
@@ -116,7 +117,8 @@ p{
     justify-content: center; 
     border-radius: 50%;
     background-color: rgba(0, 50, 107, 0.61);
-    margin-top: -7vh;
+    /* margin-top: -7vh; */
+    /* border: 1px solid salmon; */
 }
 
 .my-social a {
