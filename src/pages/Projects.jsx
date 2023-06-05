@@ -34,7 +34,7 @@ const Projects = () => {
       </div>
       <div className='all-projects'>
         {projdata.map((pdata) => {
-          const { id, image, ptitle, tech, deploy } = pdata;
+          const { id, image, ptitle, tech, deploy, projdesc } = pdata;
 
           return (
             <div
@@ -71,6 +71,7 @@ const Projects = () => {
             <a href={selectedProject.deploy} target='_blank' rel='noreferrer' className='deploy-class'>
               Deployment Link
             </a>
+            <div className='proj-desc'>{selectedProject.projdesc}</div>
             <button className='close-button' onClick={handleCloseModal}>
               Close
             </button>

@@ -12,12 +12,12 @@ export const socialLinks = [
 ];
 
 export const projdata = [
-    {id:1, image:hotstar, ptitle:'Hotstar Clone',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:2, image:task, ptitle:'Task Organizer',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:3, image:search, ptitle:'Food Search Engine',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:4, image:hotstar, ptitle:'React App',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:5, image:snack, ptitle:'SnackBite UI',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:6, image:road, ptitle:'Road Accidents Data Analysis',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:7, image:smoke, ptitle:'Wildfire Detection using CNN',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
-    {id:8, image:hotstar, ptitle:'Secure Organ Transplation',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/'},
+    {id:1, image:hotstar, ptitle:'Hotstar Clone',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:2, image:task, ptitle:'Task Organizer',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:3, image:search, ptitle:'Food Search Engine',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:4, image:hotstar, ptitle:'React App',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:5, image:snack, ptitle:'SnackBite UI',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:6, image:road, ptitle:'Road Accidents Data Analysis',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:7, image:smoke, ptitle:'Wildfire Detection using CNN',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
+    {id:8, image:hotstar, ptitle:'Secure Organ Transplation',tech:'#HTML, CSS, JavaScript', deploy:'https://hotstar-clone-flax.vercel.app/',projdesc:'HotStar Clone is a frontend web application developed using HTML, CSS, and JavaScript. It replicates the popular streaming platform Hotstar, providing users with a visually appealing interface and seamless browsing experience'},
 ];
