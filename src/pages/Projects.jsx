@@ -66,7 +66,7 @@ const Projects = () => {
         <div className='overlay'>
           <div className='modal'>
             <h4 className='over-title'>{selectedProject.ptitle}</h4>
-            <p className='my-tech'>Tech Stack: {selectedProject.tech}</p>
+            <p className='my-tech'>Tech Framework: {selectedProject.tech}</p>
             <br />
             <a href={selectedProject.deploy} target='_blank' rel='noreferrer' className='deploy-class'>
               Deployment Link
