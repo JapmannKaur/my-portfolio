@@ -4,7 +4,7 @@ import { FiFigma } from "react-icons/fi";
 import { CgCPlusPlus } from "react-icons/cg";
 import { SiMysql, SiPython, SiTensorflow, SiAdobexd } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
-import "../css/about.css";
+import "../css/About.css";
 import "../css/Skills.css";
 
 const Skills = ({isDarkMode}) => {
