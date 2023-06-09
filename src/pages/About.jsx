@@ -10,7 +10,7 @@ import yahoo from '../images/yahoo.png'
 import GitHubCalendar from "react-github-calendar";
 import Skills from '../components/Skills'
 
-const About = () => {
+const About = ({isDarkMode}) => {
 
   const [typedText, setTypedText] = useState('');
 
@@ -61,7 +61,7 @@ const About = () => {
   }, []);
 
   return (
-    <div>
+    <div className='about-page-main'>
       <Background />
       <div className='main-about'>
         <div className='top'>
@@ -112,7 +112,7 @@ const About = () => {
               </div>
             </div>
             <div className='card'>
-              <span>If you have npm and npx installed, run the following command:</span>
+              <div className={`npxcmd ${isDarkMode?"dark4-color":"light4-color"}`}>If you have npm and npx installed, run the following command:</div>
               <div className='card-in'>
                 <div className='abc'>npx japmann</div>
               </div>
@@ -120,13 +120,13 @@ const About = () => {
           </div>
         </div>
         <div className='bottom-up'>
-          <Skills/>
+          <Skills isDarkMode={isDarkMode}/>
         </div>
         <div className='bottom-down'>
           <div className='git-text'>
-              <div className='my'>Japmann's</div>
-              <div className='graph'>Github</div>
-              <div className='contri'>Contribution Graph</div>
+              <div className={`my ${isDarkMode?"dark4-color":"light4-color"}`}>Japmann's</div>
+              <div className={`graph ${isDarkMode?"dark5-color":"light5-color"}`}>Github</div>
+              <div className={`contri ${isDarkMode?"dark4-color":"light4-color"}`}>Contribution Graph</div>
           </div>
           <div className='git-graph'>
             <GitHubCalendar
@@ -135,8 +135,8 @@ const About = () => {
               blockMargin={8}
               blockSize={16}
               fontSize={16}
-              color={"#32CD30"}
-              colorScheme='light'
+              color={isDarkMode?'#32CD30':'black'}
+              colorScheme={isDarkMode?'light':'dark'}
             />
           </div>
         </div>

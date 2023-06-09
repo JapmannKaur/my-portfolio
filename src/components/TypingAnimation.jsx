@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import {Link} from 'react-router-dom'
-const TypingAnimation = () => {
-  const titles = ["CS Student", "Front-End Developer", "UX/UI Designer", "Coding Enthusiast"];
+const TypingAnimation = ({isDarkMode}) => {
+  const titles = ["CS Student", "Front-End Developer", "UX/UI Designer","Coding Enthusiast"];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [hovered, setHovered] = useState(false);
   const [value, setValue] = useState('');
@@ -38,17 +38,17 @@ const TypingAnimation = () => {
 
   return (
     <div>
-      <h2>Japmann Kaur Banga</h2>
-      <p>I am a <span
-        className="typing"
+      <h2 className={`${isDarkMode?"dark1-color":"light1-color"}`}>Japmann Kaur Banga</h2>
+      <p className={`${isDarkMode?"dark1-color":"light1-color"}`}>I am a <span
+        className={`${isDarkMode?"typing-dark":"typing-light"}`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
         {value}
       </span></p>
       <div className='btn'>
-        <button className='btn1'><span className='txt1'>Resume</span></button>
-        <button className='btn2'><Link to='/about'>Explore More</Link></button> 
+        <button className={`${isDarkMode?"btn1":"btn1-light"}`} onClick={() => window.location.href = "https://drive.google.com/drive/folders/1zSDbPcoNsD3NLILksY_r7LKwBeA6scow?usp=sharing"}><span className='txt1'>Resume</span></button>
+        <button className={`${isDarkMode?"btn2":"btn2-light"}`}><Link to='/about'>Explore More</Link></button> 
       </div>
     </div>
   );

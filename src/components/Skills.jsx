@@ -7,10 +7,10 @@ import { FaAws } from "react-icons/fa";
 import "../css/about.css";
 import "../css/Skills.css";
 
-const Skills = () => {
+const Skills = ({isDarkMode}) => {
   return (
     <div className="skills wh-col">
-      <h1 className="skills-heading">
+      <h1 className={`skills-heading ${isDarkMode?"dark5-color":"light5-color"}`}>
         My <span className="gr-col">Skillset</span>
       </h1>
       <div className="skills-box">
@@ -18,7 +18,7 @@ const Skills = () => {
           <span className="tooltiptext">C++</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <CgCPlusPlus className="grid-icon" style={{ color: "black" }} />
               </div>
               <div className="flip-card-back">
@@ -31,7 +31,7 @@ const Skills = () => {
           <span className="tooltiptext">MySQL</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`} >
                 <SiMysql className="grid-icon" style={{ color: "#00618A" }} />
               </div>
               <div className="flip-card-back">
@@ -44,7 +44,7 @@ const Skills = () => {
           <span className="tooltiptext">Java</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <DiJava className="grid-icon" style={{ color: "#DB380E" }} />
               </div>
               <div className="flip-card-back">
@@ -57,7 +57,7 @@ const Skills = () => {
           <span className="tooltiptext">Python</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <SiPython className="grid-icon" style={{ color: "#3673A5" }} />
               </div>
               <div className="flip-card-back">
@@ -70,8 +70,8 @@ const Skills = () => {
           <span className="tooltiptext">Javascript</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <DiJavascript1 className="grid-icon" style={{ color: "#2E302C" }} />
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}> 
+                <DiJavascript1 className="grid-icon" style={{ color: "black" }} />
               </div>
               <div className="flip-card-back">
                 <span className="tooltiptext">Javascript</span>
@@ -83,7 +83,7 @@ const Skills = () => {
           <span className="tooltiptext">ReactJS</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <DiReact className="grid-icon" style={{ color: "#61DBFB" }} />
               </div>
               <div className="flip-card-back">
@@ -96,7 +96,7 @@ const Skills = () => {
           <span className="tooltiptext">Figma</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <FiFigma className="grid-icon" style={{ color: "#90C53F" }} />
               </div>
               <div className="flip-card-back">
@@ -109,8 +109,8 @@ const Skills = () => {
           <span className="tooltiptext">TensorFlow</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <SiTensorflow className="grid-icon" style={{ color: "#FF8201" }} />
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
+                <SiTensorflow className="grid-icon" style={{ color: "#FF9903" }} />
               </div>
               <div className="flip-card-back">
                 <span className="tooltiptext">TensorFlow</span>
@@ -122,7 +122,7 @@ const Skills = () => {
           <span className="tooltiptext">AdobeXD</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
                 <SiAdobexd className="grid-icon" style={{ color: "black" }} />
               </div>
               <div className="flip-card-back">
@@ -135,8 +135,8 @@ const Skills = () => {
           <span className="tooltiptext">AWS</span>
           <div className="flip-card">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <FaAws className="grid-icon" style={{ color: "#FC9A00" }} />
+              <div className={`flip-card-front ${isDarkMode?"dark3-color":"light3-color"}`}>
+                <FaAws className="grid-icon" style={{ color: "#FF9903" }} />
               </div>
               <div className="flip-card-back">
                 <span className="tooltiptext">AWS</span>

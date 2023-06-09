@@ -2,11 +2,12 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../css/Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({isDarkMode}) => {
   const location = useLocation();
 
+  console.log(isDarkMode);
   return (
-    <div className='nav-parent'>
+    <div className={`nav-parent ${isDarkMode?"dark7-color":"light7-color"}`}>
       <div className="logo">
         <div className='l1'>JAPMANN</div>
         <div className='l2'>JAPMANN</div> 

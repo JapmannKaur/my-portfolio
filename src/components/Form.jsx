@@ -2,15 +2,15 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import '../css/Form.css'
 
-function ContactForm() {
+function ContactForm({isDarkMode}) {
   const [state, handleSubmit] = useForm("xlekygvp");
   if (state.succeeded) {
-      return <p className='thankyou'>Thank you for getting in touch with us!</p>;
+      return <p className={`thankyou ${isDarkMode?"dark4-color":"light4-color"}`}>Thank you for getting in touch with us!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>
       <input 
-        id="send-name"
+        className={`send-name ${isDarkMode?"dark8-color":"light8-color"}`}
         type="text"
         name = "name"
         placeholder='Your name'
@@ -21,7 +21,7 @@ function ContactForm() {
         errors={state.errors}
         />
       <input
-        id="send-email"
+        className={`send-email ${isDarkMode?"dark8-color":"light8-color"}`}
         type="email" 
         name="email"
         placeholder='Your Email'
@@ -32,7 +32,7 @@ function ContactForm() {
         errors={state.errors}
       />
       <textarea
-        id="send-msg"
+        className={`send-msg ${isDarkMode?"dark8-color":"light8-color"}`}
         name="message"
         placeholder='Your Message'
       />
@@ -41,15 +41,17 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-      <button className='btn-submit' type="submit" disabled={state.submitting}>
+      <button className={`btn-submit ${isDarkMode?"dark6-color":"light6-color"}`} type="submit" disabled={state.submitting}>
         Submit 📩
       </button>
     </form>
   );
 }
-function App() {
+function App({isDarkMode}) {
   return (
-    <ContactForm />
+    <ContactForm isDarkMode={isDarkMode}/>
   );
 }
 export default App;
+
+// {`dev-prof ${isDarkMode?"dark8-color":"light8-color"}`}

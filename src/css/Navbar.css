@@ -1,10 +1,11 @@
 .nav-parent {
     display: flex;
+    margin-top: -3vh;
     height: 9vh;
     width: 100%;
     border: 1px solid black;
     justify-content: space-between;
-    background-color: #153D6A;
+    /* background-color: #153D6A; */ 
   }
   
   .navlinks {
@@ -13,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     width: 28%;
-    background-color: #153D6A;
+    background-color: transparent;
   }
   
   .navlinks li {
@@ -26,7 +27,7 @@
     text-decoration: none;
     color: white;
     font-size: 1.4rem;
-    background-color: #153D6A;
+    background-color: transparent;
     padding: 0 10px;
     display: flex;
     height: 100%;
@@ -45,7 +46,7 @@
   }
   
   .logo {
-    background-color: #153D6A;
+    background-color: transparent;
     color: white;
     width: 8%;
     display: flex;
@@ -61,11 +62,19 @@
     transform: scaleY(-1);
     color: rgba(255, 255, 255, 0.4);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #153D6A;
+    background-color: transparent;
   }
   
   .logo .l1 {
-    background-color: #153D6A;
+    background-color: transparent;
     margin: 0;
   }
   
+
+.light7-color{
+  background-color: #008080;
+}
+
+.dark7-color{
+  background-color: #153D6A;
+}

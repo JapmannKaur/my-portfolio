@@ -2,6 +2,15 @@
   margin:0;
   padding: 0; 
   box-sizing: border-box;
-  /* background-color: #001a38; */
+  
+} 
+
+.light {
+  background-color: #FFFACD;
+  color: black;
+}
+
+.dark{
   background-color: #00122b;
+  color: #fff;
 }

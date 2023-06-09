@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 .my-projects{
-    width: 16.5vw;
-    color: white;
+    width: 18.5vw;
+    /* color: white; */
     display: flex;
     column-gap: 0.6vw;
     font-size: 2rem;
     padding: 10px;
     margin-top: 2vh;
     margin-left: 5vw;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 600;
 }
 
 .only-proj{
-    color: #40EB11;
+    /* color: #40EB11; */
     font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 600;
 }
 
 .all-projects{
@@ -43,7 +45,7 @@
     justify-content: space-around;
     /* padding: 10px; */
     /* background-color: #00275E; */
-    background-color: #153D6A;
+    /* background-color: #153D6A; */
     row-gap: 3vh;
     padding-bottom: 15px;
     border-radius: 15px;
@@ -69,7 +71,7 @@
 }
   
 .details-button {
-    background-color: #00122b;
+    /* background-color: #00122b; */
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
@@ -152,6 +154,7 @@
     text-align: center;
     letter-spacing: 2px;
     font-family: 'Source Sans Pro', sans-serif;
+    /* color: #40EB11 ; */
 }
   
 .my-tech {
@@ -172,7 +175,7 @@
     font-size: 1.2rem;
     /* color: #00122b; */
     font-weight: 600;
-    color: #40EB11;
+    /* color: #40EB11; */
     background-color: transparent;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -189,7 +192,7 @@
 .close-button {
     width: 20%;
     padding: 10px 20px;
-    background-color: #00122b;
+    /* background-color: #00122b; */
     border: none;
     border-radius: 5px;
     cursor: pointer;

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
+/* .about-page-main{
+    height: 220vh;
+} */
+
 .main-about{
     width: 98%;
-    height: 220vh;
+    height: auto;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 
 .left-top{
     width: 20%;
@@ -259,6 +264,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     font-weight: 600;
+    color: black;
 }
 
 .about-bottom{
@@ -324,9 +330,9 @@ font-size: 1.15rem; */
     color: #D6AA4C;
 }
   
-.git-graph{
+/* .git-graph{
     color: white;
-}
+} */
 
 .git-text {
     display: flex;
@@ -338,10 +344,31 @@ font-size: 1.15rem; */
     font-weight: 600;
 }
 
-.my, .contri{
+/* .my, .contri{
+    color: white;
+} */
+
+/* .graph{
+    color: #40BE11;
+} */
+
+.light4-color{
+    color: black;
+}
+
+.dark4-color{
     color: white;
 }
 
-.graph{
-    color: #40BE11;
+.light5-color{
+    color: #008080;
+}
+
+.dark5-color{
+    color: #40BE11
+}
+
+.npxcmd{
+    font-size: 1.4rem;
+    margin-left: 0.6vw;
 }

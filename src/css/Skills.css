@@ -1,3 +1,12 @@
+.light3-color{
+  background-color: #ffffff;
+}
+
+.dark3-color{
+  background-color: #153d6a8c;
+} 
+
+
 .skills {
     height: 70%;
     width: 96%;
@@ -6,7 +15,7 @@
   }
   
   .skills-heading {
-    color: #40be11;
+    /* color: #40be11; */
     height: 12%;
     text-align: center;
     padding: 1% 0;
@@ -32,7 +41,7 @@
   .grid-item {
     height: 50%;
     width: 14%;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 1.7rem;
     display: flex;
     justify-content: center;
@@ -76,7 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #153d6a8c;
+    /* background-color: #153d6a8c; */
     border-radius: 15px;
   }
   

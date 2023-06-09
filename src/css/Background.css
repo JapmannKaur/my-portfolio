@@ -1,8 +1,17 @@
-/* body {
-	background-color: #001a38;
-	/* height: 100vh; 
-} */
+/* body { */
+	/* background-color: #001a38; */
+	/* height: 100vh; */
+/* }  */
 
+
+
+.dark3-color{
+	background-color: #999898;
+}
+
+.light3-color{
+	background-color: black;
+}
 .wrapper .square {
 	position: fixed;
 	bottom: -180px;
@@ -23,7 +32,7 @@
 	z-index: 999;
 	border-left: 18px solid transparent;
 	border-right: 18px solid transparent;
-	border-bottom: 36px solid #999898;
+	/* border-bottom: 36px solid #999898; */
 	animation: animate 6s linear infinite;
   }  
 

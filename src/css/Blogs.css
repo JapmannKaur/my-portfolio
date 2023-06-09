@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
 
+
+.light6-color{
+    background-color: #008080;
+}
+
+
+.dark6-color{
+    background-color: #40BE11;;
+}
+
 .articles{
     width: 80%;
     height: 165vh;
@@ -26,14 +36,14 @@
     font-weight: 600;
     letter-spacing: 1px;
     padding: 2px;
-    color: white;
+    /* color: white; */
     font-family: 'Source Sans Pro', sans-serif;
 }
   
 .line{
     width: 9vw;
     height: 0.7vh;
-    background-color: #40BE11;
+    /* background-color: #40BE11; */
 }
 
 
@@ -62,7 +72,7 @@
 }
 
 h4{
-    color: #40BE11;
+    /* color: #40BE11; */
     font-size: 2.2rem;
     margin-top: 5vh;
     margin-left: 2vw;
@@ -93,18 +103,18 @@ h4{
 }
 
 .dates{
-    color: white;
+    /* color: white; */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .book{
     width: 60%;
-    color: white;
+    /* color: white; */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .book i{
-    color: #40BE11;
+    /* color: #40BE11; */
     margin-right: 5px;
 }
 
@@ -112,7 +122,7 @@ h4{
     font-size: 1.5rem;
     margin-top: 4vh;
     margin-left: 2vw;
-    color: white;
+    /* color: white; */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
