@@ -5,7 +5,7 @@
     /* color: white; */
     display: flex;
     column-gap: 0.6vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     margin-top: 2vh;
     margin-left: 5vw;
@@ -21,7 +21,7 @@
 }
 
 .all-projects{
-    width: 90%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid white; */
@@ -29,9 +29,9 @@
     height: auto;
     align-items: center;
     /* justify-content: space-around; */
-    row-gap: 3vh;
+    row-gap: 3.5vh;
     margin-top: 5vh;
-    margin-left: 7vw;
+    margin-left: 8.5vw;
     column-gap: 2.5vw;
 }
 
@@ -53,7 +53,7 @@
 
 .projtitle{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: transparent;
     font-family: 'Source Sans Pro', 'sans-serif';
 }
@@ -73,13 +73,14 @@
 .details-button {
     /* background-color: #00122b; */
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     width: 8vw;
+    height: 7vh;
     font-family: 'Source Sans Pro', 'sans-serif';
 }
   
@@ -139,8 +140,8 @@
 }
   
 .modal {
-    height: 50vh;
-    width: 45%;
+    height: 70vh;
+    width: 60%;
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 5px;
@@ -160,8 +161,9 @@
 .my-tech {
     font-size: 1.3rem;
     font-weight: 600;
+    margin-top: 5vh;
     margin-bottom: 10px;
-    margin-left: 0px;
+    margin-left: -10%;
     color: #00122b;
     background-color: transparent;
     font-family: 'Source Sans Pro', sans-serif;
@@ -169,7 +171,7 @@
   
 .deploy-class {
     display: block;
-    margin-top: -10px;
+    margin-top: -3vh;
     margin-left: 0px;
     text-decoration: underline;
     font-size: 1.2rem;
@@ -196,8 +198,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 60px;
-    margin-left: 17vw;
+    margin-top: 8.5vh;
+    margin-left: 22vw;
     color: white;
     font-size: 1.2rem;
     letter-spacing: 2px;

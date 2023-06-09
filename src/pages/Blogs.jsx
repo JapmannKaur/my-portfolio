@@ -97,6 +97,31 @@ const Blogs = ({isDarkMode}) => {
           <img src={UI}/>
           </div>
         </div>
+        <div className='my-blog' onClick={handleDivClick}>
+          <div className={`blog-text ${isDarkMode?"dark5-color":"light5-color"}`}>
+            <h4>Journey to becoming a UI/UX Designer</h4>
+            <div className='read'>
+              <div className={`dates ${isDarkMode?"dark4-color":"light4-color"}`}>
+                Jan 6, 2023 |
+              </div>
+              <div className={`book ${isDarkMode?"dark4-color":"light4-color"}`}>
+                <i class={`fas fa-book-open ${isDarkMode?"dark5-color":"light5-color"}`}></i>
+                5 min read
+              </div>
+            </div>
+            <div className='tags'>
+              <span>#UX/UI Design  </span>
+              <span>#User Research  </span>
+              <span>#User Experience  </span>
+            </div>
+            <div className={`in-txt ${isDarkMode?"dark4-color":"light4-color"}`}>
+            User interface (UI) design is the process designers use to create interfaces in software or computerized devices emphasizing appearance and style. Designers aim to create user-friendly and enjoyable interfaces. UI design refers to graphical user interfaces and other forms such as Voice control interfaces.
+            </div>
+          </div>
+          <div className='blogimg'>
+            <img src={UI}/>
+          </div>
+        </div>
       </div>
     </div>
   )

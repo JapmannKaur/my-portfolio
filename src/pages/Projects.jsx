@@ -70,7 +70,7 @@ const Projects = ({isDarkMode}) => {
             <br />
             <a href={selectedProject.deploy} target='_blank' rel='noreferrer' className={`deploy-class ${isDarkMode?"dark5-color":"light5-color"}`}>
               Deployment Link
-            </a>
+            </a> 
             <div className='proj-desc'>{selectedProject.projdesc}</div>
             <button className={`close-button ${isDarkMode?"dark":"light7-color"}`} onClick={handleCloseModal}>
               Close

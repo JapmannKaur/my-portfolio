@@ -132,8 +132,8 @@ const About = ({isDarkMode}) => {
             <GitHubCalendar
               style={{ marginBottom: "50px" }}
               username="JapmannKaur"
-              blockMargin={8}
-              blockSize={16}
+              blockMargin={6.5}
+              blockSize={14}
               fontSize={16}
               color={isDarkMode?'#32CD30':'black'}
               colorScheme={isDarkMode?'light':'dark'}
@@ -141,7 +141,8 @@ const About = ({isDarkMode}) => {
           </div>
         </div>
       </div>
+      <div className="buffer"></div>
     </div>
   )
 }
-export default About 
+export default About

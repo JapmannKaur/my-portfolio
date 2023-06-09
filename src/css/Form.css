@@ -36,7 +36,7 @@
 
 ::placeholder{
     font-family: 'Source Sans Pro';
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: white;
 }
 
@@ -50,11 +50,12 @@ input, textarea{
     /* background-color: #40BE11; */
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-left: 13vw;
     border: 1px solid black;
     margin-bottom: 3vh;
+    text-align: center;
 }
 
 .btn-submit:hover {

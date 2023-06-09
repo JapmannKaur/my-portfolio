@@ -12,7 +12,7 @@
 
 .articles{
     width: 80%;
-    height: 165vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 .cont{
-    width: 19%;
+    width: 22%;
     height: 8vh;
     margin-left: 12vw;
     margin-top: 9vh;
@@ -32,7 +32,7 @@
 } 
 
 .title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 2px;
@@ -49,11 +49,13 @@
 
 .my-blog{
     width: 100%;
-    height: 50vh;
+    height: auto;
     border-bottom: 1px solid #40BE11;
-    margin-top: 3vh;
+    /* border: 1px solid green; */
+    margin-top: 2vh;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 5%;
 }
 
 .my-blog:hover{
@@ -69,18 +71,20 @@
 .blogimg{
     width: 40%;
     margin-left: 2vw;
+    /* border: 1px solid cadetblue; */
+    margin-top: 7vh;
 }
 
 h4{
     /* color: #40BE11; */
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     margin-top: 5vh;
     margin-left: 2vw;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tags{
-    width: 45%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     margin-top: 2vh;
@@ -92,10 +96,11 @@ h4{
     border-radius: 10px;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
 }
 
 .read{
-    width: 28%;
+    width: 35%;
     display: flex;
     margin-top: 2vh;
     margin-left: 2vw;
@@ -119,8 +124,8 @@ h4{
 }
 
 .in-txt{
-    font-size: 1.5rem;
-    margin-top: 4vh;
+    font-size: 1rem;
+    margin-top: 3vh;
     margin-left: 2vw;
     /* color: white; */
     font-family: 'Source Sans Pro', sans-serif;

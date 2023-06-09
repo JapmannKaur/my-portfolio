@@ -34,12 +34,13 @@
 .contact-text{
     height: 23vh;
     width: 95%;
+    margin-top: 6%;
     /* border: 1px solid red; */
 }
 
 .contact-text p{
-    font-size: 3rem;
-    margin-left: 0;
+    font-size: 2rem;
+    margin-left: -10%;
     font-family: 'Source Sans Pro', sans-serif;
     /* color: #40BE11; */
     font-weight: 600;
@@ -48,7 +49,7 @@
 .sugg{
     /* color: antiquewhite; */
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .the-prof{
@@ -57,12 +58,13 @@
     /* border: 1px solid salmon; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    column-gap: 3vw;
 }
 
 .dev-prof{
-    height: 35vh;
-    width: 40%;
+    height: 33vh;
+    width: 38%;
     /* border: 1px solid slateblue; */
     display: flex;
     flex-direction: column;
@@ -72,9 +74,9 @@
 }
 
 .dev-text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: transparent;
-    margin-left: 0vw;
+    margin-left: -10%;
     margin-top: 8px;
     font-weight: 600;
     color: #40BE11;
@@ -100,12 +102,12 @@
     text-decoration: none;
     background-color: transparent;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .social-prof{
-    height: 30vh;
-    width: 38%;
+    height: 28vh;
+    width: 35%;
     display: flex;
     flex-direction: column;
     row-gap: 1.7vh;
@@ -115,10 +117,11 @@
 }
 
 .social-text{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: transparent;
-    margin-left: 0vw;
-    margin-top: 35px;
+    margin-left: -10%;
+    margin-top: 10%;
+    margin-bottom: 2%;
     font-weight: 600;
     color: #40BE11;
 }
@@ -143,7 +146,7 @@
     text-decoration: none;
     background-color: transparent;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .contact-msg{
@@ -168,7 +171,7 @@
 }
 
 .dark-tag{
-    height: 22vh;
+    height: 20vh;
     width: 2.5vw;
     background-color: #1D293A;
     color: white;
@@ -178,7 +181,7 @@
     text-align: center;
     padding-top: 2px;
     padding-left: 6px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 4.5px;
 }
@@ -190,7 +193,7 @@
 }
 
 .contact-bottom{
-    margin-bottom: -85px;
+    margin-bottom: -11vh;
     height: 6vh;
     width: 105.4%;
     /* background-color: #153d6a; */
@@ -198,7 +201,7 @@
     align-items: center;
     justify-content: space-between;
     /* color: white; */
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-left: 12px;
     /* border: 1px solid greenyellow; */
 }
@@ -209,7 +212,7 @@
     padding-right: 13px;
     background-color: transparent;
     /* color: white; */
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .light8-color{

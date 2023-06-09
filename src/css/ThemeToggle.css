@@ -1,67 +1,90 @@
 /* ThemeToggle.css */
 
 .toggle-container {
-    /* display: flex;
-    align-items: center; */
-    position: relative;
-    top: 12vh;
-    display: flex;
-    justify-content: start;
-    padding-left: 1vw;
-    /* border: 1px solid white; */
-    width: 75px;
-    margin-left: 94.4vw;
+  position: relative;
+  top: 12vh;
+  display: flex;
+  justify-content: start;
+  padding-left: 1vw;
+  /* border: 1px solid white; */
+  width: 6vw;
+  margin-left: 92.6vw;
 }
-  
-  .toggle {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-    margin-right: 8px;
-    /* border: 1px solid salmon; */
-  }
-  
-  .toggle input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: 0.4s;
-    border-radius: 24px;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: 0.4s;
-    border-radius: 50%;
-  }
-  
-  input:checked + .slider {
-    background-color: #32CD30;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-  
-  .toggle-label {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  /* border: 1px solid salmon; */
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.fa-sun{
+  /* border: 1px solid red; */
+  margin-top: 0.6vh;
+  margin-left: 0.2vw;
+  color: transparent;
+}
+
+.fa-moon{
+  color: transparent;
+}
+
+.toggle-container.light .slider:before {
+  content: "\f185"; 
+  font-family: "Font Awesome 5 Free";
+  color: #ff8800; 
+  text-align: center;
+  line-height: 18px;
+  /* border: 1px solid salmon; */
+}
+
+.toggle-container.dark .slider:before {
+  content: "\f186"; /* Font Awesome Unicode for moon icon */
+  font-family: "Font Awesome 5 Free";
+  color: #34495e; /* Set the moon color for dark mode */
+  text-align: center;
+  line-height: 16px;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.toggle-label {
+  font-size: 14px;
+  font-weight: bold;
+}

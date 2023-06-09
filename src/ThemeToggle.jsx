@@ -18,16 +18,16 @@ const ThemeToggle = ({ onToggle }) => {
           checked={isDarkMode}
           onChange={handleToggle}
         />
-        <span className="slider round"></span>
+        <span className="slider">
+          <i className={`fas ${isDarkMode ? 'fa-moon' : 'fa-sun'}`}></i>
+        </span>
       </label>
-      {/* <span className="toggle-label">
-        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
-      </span> */}
     </div>
   );
 };
 
 export default ThemeToggle;
+
 
 
 

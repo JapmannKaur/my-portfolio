@@ -7,14 +7,17 @@
 .main-about{
     width: 98%;
     height: auto;
-    /* border: 1px solid white; */
+    /* border: 1px solid rgb(217, 19, 19); */
     display: flex;
     flex-direction: column;
     margin-left: 1vw;
     margin-top: 2vh;
     row-gap: 9vh;
+    /* margin-bottom: -10vh; */
 }
-
+.buffer {
+    height: 10vh;
+}
 .top{
     margin-top: 2vh;
     width: 98%;
@@ -31,7 +34,7 @@
 .left-top{
     width: 20%;
     height: 90vh;
-    /* border: 1px solid yellow; */
+    /* border: 3px solid rgb(41, 62, 223); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +58,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 7vh;
+    row-gap: 4vh;
+    margin-right: 2%;
 }
 
 .bottom-up{
@@ -71,7 +75,7 @@
     height: 40vh;
     /* border: 1px solid rgb(248, 13, 212); */
     margin-left: 1vw;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,19 +84,24 @@
 }
 
 .my-img{
-    width: 98%;
-    height: 45vh;
-    /* border: 1px solid cadetblue; */
+    width: 100%;
+    height: 40vh;
+    /* border: 5px solid cadetblue; */
     border-top-left-radius: 140px;
     border-top-right-radius: 140px;
     background-color: aliceblue;
 }
 
 .my-name{
-    width: 98%;
-    height: 4.5vh;
+    width: 100%;
+    height: 5vh;
     /* border: 1px solid darkgoldenrod; */
     background-color: aliceblue;
+    margin-bottom: 2vh;
+    /* font-size: .5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lines{
@@ -119,14 +128,14 @@
 
 .navs{
     width: 98%;
-    height: 43vh;
+    height: 38vh;
     /* border: 1px solid cadetblue; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 3vh;
-    background-color: aliceblue;
+    /* background-color: red; */
 }
 
 .my-img img{
@@ -141,9 +150,10 @@
     color: #00122b;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: transparent;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-left: 2.5vw;
+    /* margin-left: 2.5vw; */
+    /* padding-top: 3%; */
 }
 
 .socials img{
@@ -168,7 +178,7 @@
     text-decoration: none;
     color: #153D6A;
     background-color: transparent;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 600;
     width: 100%;
     display: flex;
@@ -212,6 +222,7 @@
 .card{
     width: 95%;
     height: 12vh;
+    margin-top: 9vh;
     /* border: 1px solid mediumpurple; */
 }
 
@@ -269,10 +280,11 @@
 
 .about-bottom{
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     background-color: #212121;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    /* border: 1px solid red; */
 }
 
 .card-in{
@@ -298,16 +310,16 @@
 .abc{
     background-color: transparent;
     color: wheat;
-    padding-left: 20px;
-    padding-top: 0.5px;
-    font-size: 1.3rem;
+    padding: 1vh 2vw;
+    font-size: 1.1rem;
 }
 
 .typing-text{
     color: #D6AA4C;
-    font-size: 1.15rem;
+    font-size: .9rem;
     background-color: transparent;
-    margin-top: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     margin-left: 1vw;
 }
 
@@ -348,7 +360,9 @@ font-size: 1.15rem; */
     color: white;
 } */
 
-/* .graph{
+/* .
+
+{
     color: #40BE11;
 } */
 
@@ -369,6 +383,6 @@ font-size: 1.15rem; */
 }
 
 .npxcmd{
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-left: 0.6vw;
 }

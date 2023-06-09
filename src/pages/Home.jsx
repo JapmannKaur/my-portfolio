@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import Background from '../components/Background'
 import TypingAnimation from '../components/TypingAnimation'
 import '../css/Home.css'
@@ -36,4 +35,4 @@ const Home = ({isDarkMode}) => {
 }
 
 // style={{ fontSize: '24px', width: '24px', height: '24px', color:'#2dcf18', backgroundColor:'transparent'}}
-export default Home 
+export default Home
